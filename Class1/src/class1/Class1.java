@@ -28,10 +28,10 @@ public class Class1 {
         int[] temp = d.clone();
         if(k >= 0){
             for(int i=0,j=0;i<size;i++){
-                if( i+k < size){        //2
+                if( i+k < size){        //start at address k of array
                     d[i+k] = temp[i];
                 }
-                else if(i+k >= size){    // i = 4 , i = 5
+                else if(i+k >= size){   //loop to initial address of array
                     d[j] = temp[i];
                     j++;
                 }
@@ -41,11 +41,11 @@ public class Class1 {
         else{
             k = abs(k);
             for(int i=size-1,j=size-1;i>=0;i--){
-                if(i-k+1 > 0){
+                if(i-k+1 > 0){          //start at address k of array
                     d[i-k] = temp[i];
                 }
                 else{
-                    d[j] = temp[i];
+                    d[j] = temp[i];     //loop to initial address of array (in this case it is final array)
                     j--;
                 }
                 
