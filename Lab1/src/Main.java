@@ -1,3 +1,4 @@
+//Create by Nitipon Thoophom 6203051613034 EnET
 import java.util.Arrays;
 
 public class Main {
@@ -17,7 +18,7 @@ public class Main {
 
         int[] array3 = {34,12,59,4,8,34,59,28};
         //System.out.println("OG  = : " + Arrays.toString(array3));
-        u.insert(array3,4, 79);
+        u.insert(array3,1, 79);
         //System.out.println("NW  = : " + Arrays.toString(array3));
 
         double[][] array4 = {{1,0,0,0},{1,4,0,0},{2,1,2,0},{7,5,5,3}};

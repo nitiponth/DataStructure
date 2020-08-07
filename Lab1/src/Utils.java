@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.Random;
+//Create by Nitipon Thoophom 6203051613034 EnET
 
 public class Utils {
     public void shuffle(int[] d) {
