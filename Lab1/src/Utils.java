@@ -1,5 +1,5 @@
 //Create by Nitipon Thoophom 6203051613034 EnET
-import java.math.*;
+
 public class Utils {
     public void shuffle(int[] d) {
         int[] temp = d.clone();
