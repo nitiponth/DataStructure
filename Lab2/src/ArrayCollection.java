@@ -1,3 +1,6 @@
+//Lab2 Assignment
+//Nitipon Thoophom 6203051613034 EnET
+
 public class ArrayCollection {
     private Object[] elementData;
     private int      size;

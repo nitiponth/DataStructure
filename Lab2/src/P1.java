@@ -1,3 +1,6 @@
+//Lab2 Assignment
+//Nitipon Thoophom 6203051613034 EnET
+
 public class P1 {
     public int sumOfColumn(int[][] d,int col){
         if(col > (d[0].length - 1) || col < 0)
