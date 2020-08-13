@@ -57,6 +57,38 @@ public class ArrayCollection {
         return s + "]";
     }
 
+    public int count(Object e){
+        int c = 0;
+        for(int i=0;i<size;i++) {
+            if (this.elementData[i].equals(e))
+                c++;
+        }
+         return c;
+    }
+
+    public boolean containsDup(){
+        for(int i=0;i<size;i++){
+            for(int j=0;j<size;j++)
+                if(elementData[i].equals(elementData[j]))
+                    return true;
+        }
+        return false;
+    }
+
+    public void clear(){
+        for(int i=0;i<size;i++)
+            elementData[i] = null;
+        size = 0;
+    }
+
+    public void removeAll(Object e){
+        for(int i=0;i<size;i++)
+            if(elementData[i].equals(e)){
+                elementData[i] = elementData[--size];
+                elementData[size] = null;
+            }
+    }
+
     public void addAll(ArrayCollection c){
         for(int i=0;i<c.size;i++)
             this.add(c.elementData[i]);
