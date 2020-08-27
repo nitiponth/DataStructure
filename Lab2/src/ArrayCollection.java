@@ -71,7 +71,7 @@ public class ArrayCollection {
 
     public boolean containsDup(){
         for(int i=0;i<size;i++){
-            for(int j=0;j<size;j++)
+            for(int j=i+1;j<size;j++)
                 if(elementData[i].equals(elementData[j]))
                     return true;
         }
