@@ -68,18 +68,37 @@ public class ArrayList {
         return s + ">";
     }
     public void reverse() {
+        for (int i=0;i<size/2;i++){
+            Object t = elementData[i];
+            elementData[i] = elementData[size-1-i];
+            elementData[size-1-i] = t;
+        }
         
     }  
     public void addInBound(int i, Object e) {
-        
+        if(i<0 || i > size - 1) throw  new IllegalArgumentException();
+        ensureCapacity(size+1);
+        for(int k=size;k>=i;k--){
+            elementData[k] = elementData[k-1];
+        }
+        elementData[i] = e;
+        size++;
     }  
     public void addAll(ArrayList x) {
-        
+        for(int i=0;i<x.size;i++){
+            add(x.elementData[i]);
+        }
     }  
     public void removeRange( int from, int to ) {	
-        
+        for(int i=to-1;i>=from;i--){
+            remove(i);
+        }
     }  
-    public void addRange( ArrayList  other, int from ) {  
-        
+    public void addRange( ArrayList  other, int from ) {
+        if(from > size || from < 0) throw new IllegalArgumentException();
+        ensureCapacity(size+(other.size));
+        for(int i=from;i<(from+other.size);i++){
+            add(i,other.elementData[i-from]);
+        }
     }
 }
