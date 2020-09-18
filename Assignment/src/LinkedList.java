@@ -1,3 +1,6 @@
+//Nitipon Thoophom
+//6203051613034
+
 public class LinkedList {
     private static class LinkedNode {
         Object element;

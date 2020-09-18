@@ -1,3 +1,6 @@
+//Nitipon Thoophom
+//6203051613034
+
 public class ArrayList {
     Object[] elementData;
     int size;
