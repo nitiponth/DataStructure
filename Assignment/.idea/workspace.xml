@@ -30,7 +30,14 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="BuildHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BuildHeap" />
+      <module name="Assignment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="Assignment" />
@@ -41,6 +48,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.BuildHeap" />
       </list>
     </recent_temporary>
   </component>
@@ -74,21 +82,40 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1600179467512" />
-    <state width="1877" height="415" key="GridCell.Tab.0.bottom" timestamp="1601570690820">
+    <state width="1877" height="286" key="GridCell.Tab.0.bottom" timestamp="1603108820210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="415" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601570690820" />
-    <state width="1877" height="415" key="GridCell.Tab.0.center" timestamp="1601570690819">
+    <state width="1877" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603108820210" />
+    <state width="1877" height="286" key="GridCell.Tab.0.center" timestamp="1603108820210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="415" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601570690819" />
-    <state width="1877" height="415" key="GridCell.Tab.0.left" timestamp="1601570690819">
+    <state width="1877" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603108820210" />
+    <state width="1877" height="286" key="GridCell.Tab.0.left" timestamp="1603108820209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="415" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601570690819" />
-    <state width="1877" height="415" key="GridCell.Tab.0.right" timestamp="1601570690819">
+    <state width="1877" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603108820209" />
+    <state width="1877" height="286" key="GridCell.Tab.0.right" timestamp="1603108820210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="415" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601570690819" />
+    <state width="1877" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603108820210" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1601607226524">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601607226524" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603015265783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603015265783" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ArrayList.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
