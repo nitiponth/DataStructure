@@ -132,12 +132,12 @@ public class ArrayQueue {
     public Object[] test(int m){
         Object[] a = new Object[0];
         Object[] b = new Object[size];
-        int i = 0;
         if(size == 0)
             return a;
+        int i = 0;
         while(i<m && i<b.length){
             b[i] = dequeue();
-            System.out.println(b[i]);
+            //System.out.println(b[i]);
             i++;
         }
         a = new Object[i];
