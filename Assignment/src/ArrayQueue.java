@@ -128,4 +128,22 @@ public class ArrayQueue {
         enqueue2Front(temp);
         size--;
     }
+
+    public Object[] test(int m){
+        Object[] a = new Object[0];
+        Object[] b = new Object[size];
+        int i = 0;
+        if(size == 0)
+            return a;
+        while(i<m && i<b.length){
+            b[i] = dequeue();
+            System.out.println(b[i]);
+            i++;
+        }
+        a = new Object[i];
+        for(int j=0;j<i;j++){
+            a[j] = b[j];
+        }
+        return a;
+    }
 }
