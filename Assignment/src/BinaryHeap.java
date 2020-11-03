@@ -1,6 +1,6 @@
 import java.util.NoSuchElementException;
 
-public class BinaryHeap {
+public class BinaryHeap {       //MaxHeap
     private Object[] elementData;
     private int size;
     public BinaryHeap(int cap){

@@ -81,4 +81,49 @@ public class ArrayStack {
         }
         return s + "]";
     }
+
+    public int multiPop(int k){
+        int sum=0;
+        for (int i=size-1;i>=0;i--){
+            if(((int)elementData[i] + sum) < k)
+                sum += (int)pop();
+        }
+        return sum;
+    }
+
+    public Object[] multiPopE(int k,Object e){
+        Object[] a = new Object[0];
+        Object[] b = new Object[size];
+        if(size == 0)
+            return a;
+        int i = 0;
+        while (i<k && !isEmpty()){
+            b[i++] = pop();
+            if(isEmpty())
+                break;
+            else if (e.equals(peek())) {
+                b[i++] = pop();
+                break;
+            }
+        }
+
+        a = new Object[i];
+        for(int j=0;j<i;j++){
+            a[j] = b[j];
+        }
+        return a;
+    }
+
+    public void setReverse(ArrayStack s){
+        if(s.isEmpty())
+            return;
+        ArrayStack temp = new ArrayStack();
+        for (int i=0;i<size;i++)
+            temp.elementData[i] = s.elementData[i];
+        elementData = new Object[1];
+        temp.size = s.size; size=0;
+        while(!temp.isEmpty())
+            push(temp.pop());
+
+    }
 }

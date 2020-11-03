@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4828edbb-c552-4107-9251-01abef9135c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/ArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/ArrayStack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Assignment/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BSTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BSTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,22 +95,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1600179467512" />
-    <state width="914" height="286" key="GridCell.Tab.0.bottom" timestamp="1603460051594">
+    <state width="1877" height="464" key="GridCell.Tab.0.bottom" timestamp="1604124664221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603460051594" />
-    <state width="914" height="286" key="GridCell.Tab.0.center" timestamp="1603460051593">
+    <state width="1877" height="464" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604124664221" />
+    <state width="1877" height="464" key="GridCell.Tab.0.center" timestamp="1604124664221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603460051593" />
-    <state width="914" height="286" key="GridCell.Tab.0.left" timestamp="1603460051593">
+    <state width="1877" height="464" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604124664221" />
+    <state width="1877" height="464" key="GridCell.Tab.0.left" timestamp="1604124664221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603460051593" />
-    <state width="914" height="286" key="GridCell.Tab.0.right" timestamp="1603460051593">
+    <state width="1877" height="464" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604124664221" />
+    <state width="1877" height="464" key="GridCell.Tab.0.right" timestamp="1604124664221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603460051593" />
+    <state width="1877" height="464" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604124664221" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1601607226524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

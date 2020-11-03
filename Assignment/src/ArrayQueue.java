@@ -146,4 +146,20 @@ public class ArrayQueue {
         }
         return a;
     }
+
+    public Object[] frontAndRear(){
+        Object[] a = new Object[2];
+        if(size == 0)
+            return a = new Object[0];
+        a[0] = peek();
+        a[1] = elementData[(front+size-1)%elementData.length];
+        return a;
+    }
+
+    public Object getK(int k){
+        if (k >= size)
+            return null;
+        return elementData[(front+size-1-k)%elementData.length];
+
+    }
 }
